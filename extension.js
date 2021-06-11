@@ -23,8 +23,15 @@ function activate(context) {
 		// Display a message box to the user
 		vscode.window.showInformationMessage('Hello World from OneDayOneQA!');
 	});
-
 	context.subscriptions.push(disposable);
+
+	let helloVscode = vscode.commands.registerCommand('extension.helloVscode', function () {
+		// The code you place here will be executed every time your command is executed
+
+		// Display a message box to the user
+		vscode.window.showInformationMessage('Hello World from helloVscode!');
+	});
+	context.subscriptions.push(helloVscode);
 }
 
 // this method is called when your extension is deactivated
