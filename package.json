@@ -24,7 +24,24 @@
                 "command": "extension.helloVscode",
                 "title": "Hello VScode"
             }
-        ]
+        ],
+		"keybindings": [
+			{
+				"command": "OneDayOneQA.helloWorld",
+				"key": "f7",
+				"mac": "f7",
+				"when": "editorTextFocus"
+			}
+		],
+		"menus": {
+			"editor/context": [
+				{
+					"when": "editorFocus",
+					"command": "extension.helloVscode",
+					"group": "navigation"
+				}
+			]
+		}
     },
     "scripts": {
         "lint": "eslint .",
