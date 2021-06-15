@@ -1,7 +1,7 @@
 {
-    "name": "OneDayOneQA",
-    "displayName": "OneDayOneQA",
-    "description": "每日一题",
+    "name": "onedayone-qa",
+    "displayName": "每日一题",
+    "description": "日进一步",
     "version": "0.0.1",
     "publisher": "OneDayOneQA",
     "engines": {
@@ -25,23 +25,59 @@
                 "title": "Hello VScode"
             }
         ],
-		"keybindings": [
-			{
-				"command": "OneDayOneQA.helloWorld",
-				"key": "f7",
-				"mac": "f7",
-				"when": "editorTextFocus"
-			}
-		],
-		"menus": {
-			"editor/context": [
-				{
-					"when": "editorFocus",
-					"command": "extension.helloVscode",
-					"group": "navigation"
-				}
-			]
-		}
+        "keybindings": [
+            {
+                "command": "OneDayOneQA.helloWorld",
+                "key": "f7",
+                "mac": "f7",
+                "when": "editorTextFocus"
+            }
+        ],
+        "menus": {
+            "editor/context": [
+                {
+                    "when": "editorFocus",
+                    "command": "extension.helloVscode",
+                    "group": "navigation"
+                }
+            ]
+        },
+        "viewsContainers": {
+            "activitybar": [
+                {
+                    "id": "beautifulGirl",
+                    "title": "每日一题",
+                    "icon": "./imgages/icon.png"
+                }
+            ]
+        },
+        "views": {
+            "beautifulGirl": [
+                {
+                    "id": "beautifulGirl1",
+                    "name": "前端"
+                },
+                {
+                    "id": "beautifulGirl2",
+                    "name": "PHP"
+                },
+                {
+                    "id": "beautifulGirl3",
+                    "name": "SQL"
+                },
+                {
+                    "id": "beautifulGirl4",
+                    "name": "Python"
+                }
+            ]
+        },
+        "iconThemes": [
+            {
+                "id": "testIconTheme",
+                "label": "图标",
+                "path": "./imgages/icon.jpg"
+            }
+        ]
     },
     "scripts": {
         "lint": "eslint .",
