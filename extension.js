@@ -35,7 +35,9 @@ function activate(context) {
 }
 
 // this method is called when your extension is deactivated
-function deactivate() {}
+function deactivate() {
+	console.log('"OneDayOneQA"插件调用结束！');
+}
 
 module.exports = {
 	activate,
