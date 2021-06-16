@@ -2,7 +2,7 @@
     "name": "onedayone-qa",
     "displayName": "每日一题",
     "description": "日进一步",
-    "version": "0.0.1",
+    "version": "0.0.12",
     "publisher": "OneDayOneQA",
     "engines": {
         "vscode": "^1.56.0"
@@ -20,7 +20,8 @@
             {
                 "command": "OneDayOneQA.helloWorld",
                 "title": "Hello World"
-            },{
+            },
+            {
                 "command": "extension.helloVscode",
                 "title": "Hello VScode"
             }
