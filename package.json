@@ -1,15 +1,42 @@
 {
     "name": "onedayone-qa",
-    "displayName": "每日一题",
+    "displayName": "OneDayOneQA",
     "description": "日进一步",
-    "version": "0.0.12",
+    "version": "0.0.14",
     "publisher": "OneDayOneQA",
     "engines": {
         "vscode": "^1.56.0"
     },
+    "keywords": [
+        "vue",
+        "react",
+        "前端",
+        "面试",
+        "interview",
+        "JavaScript",
+        "TypeScript",
+        "css",
+        "canvas",
+        "小程序",
+        "webpack",
+        "PHP",
+        "工具",
+        "tool",
+        "学习",
+        "learn",
+        "Python",
+        "MySQL",
+        "SQL"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/whtcgh/OneDayOneQA"
+    },
+    "icon": "imgages/icon.png",
     "categories": [
         "Other"
     ],
+    "license": "MIT",
     "activationEvents": [
         "onCommand:OneDayOneQA.helloWorld",
         "onCommand:extension.helloVscode"
